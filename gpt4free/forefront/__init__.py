@@ -92,7 +92,7 @@ class Account:
 class StreamingCompletion:
     @staticmethod
     def create(
-        token=None,
+        token='eyJhbGciOiJSUzI1NiIsImtpZCI6Imluc18yTzZ3UTFYd3dxVFdXUWUyQ1VYZHZ2bnNaY2UiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwczovL2NoYXQuZm9yZWZyb250LmFpIiwiZXhwIjoxNjgyODY3MTE0LCJpYXQiOjE2ODI4NjcwNTQsImlzcyI6Imh0dHBzOi8vY2xlcmsuZm9yZWZyb250LmFpIiwibmJmIjoxNjgyODY3MDQ0LCJzaWQiOiJzZXNzXzJQOU83N01xQ0dKemlVNUM3RWN2ZDl1WjZuQyIsInN1YiI6InVzZXJfMlA5Tzc1SFo5QkNWbWphcmR6SFllbjNsQ0ZxIn0.Jo3EoElwB9nIFL0Nj2h7-JQebNq9qqJo7fq61YYXafeJZ1I7EcSNSP6Y6_AXMMdmjNg1iK9YHmZEwbYe3nm86jrwe5bqYySam9v9Be1Q2O5LPPCV1WKF6Bp1_3RyQgy6tVh1J-eJhMZycnzHtsQhtotDTq42nR40WqwXM35PWNMS6cCZ99tDGWUQPm46EGyEwytVmHjkgaDqYFfzZBBGTZtz9DZW6cwb0m6WPfsj0Yattfc8rcPVr6HElkPnBd9tj2DaoRdV18J7VF9AbJqMsClBArUPK9qrZxVxhjHCtZxOan8VjTOVZQ50-58xH9n5CoBgGwVd247rwHZVYMTnVw',
         chat_id=None,
         prompt='',
         action_type='new',
