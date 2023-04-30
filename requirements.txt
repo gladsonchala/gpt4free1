@@ -1,4 +1,5 @@
 websocket-client
+telebot
 requests
 tls-client
 pypasser
